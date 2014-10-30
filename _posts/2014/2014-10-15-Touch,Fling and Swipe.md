@@ -15,9 +15,9 @@ OnGestureListener的响应函数：
 * onFling：快速连续滑动，不区分方向。
 
 
-### 左右滑动动作响应的实现
+## 左右滑动动作响应的实现
 
-#### 运行顺序
+### 运行顺序
 Activity implements OnTouchListener
 
     /*设置滑动响应*/
@@ -39,7 +39,7 @@ GestureDetector.SimpleOnGestureListener
     	/*定义Swipe Left and Right的条件*/
     }
     
-#### 定义Swipe动作
+### 定义Swipe动作
 
 GestureDetector.SimpleOnGestureListener接口定义了Fling动作的标准。Swipe动作是基于Fling动作的，所以实现该接口的时候，要复写onFling响应函数。
 
@@ -70,7 +70,7 @@ GestureDetector.SimpleOnGestureListener接口定义了Fling动作的标准。Swi
             return super.onFling(e1, e2, velocityX, velocityY);
         }
 
-#### Demo
+### Demo
 
 * [MOTION-touch_and_swipe](http://pan.baidu.com/s/1jG7lbPO)
 

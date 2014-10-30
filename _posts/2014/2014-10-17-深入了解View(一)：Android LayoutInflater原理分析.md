@@ -6,7 +6,7 @@ tags : [Android, Android View]
 ---
 
 
-### 加载布局的类
+## 加载布局的类
 
 相信接触Android久一点的朋友对于LayoutInflater一定不会陌生，都会知道它主要是用于加载布局的。
 
@@ -31,7 +31,7 @@ tags : [Android, Android View]
 
 inflate()方法一般接收两个参数，第一个参数就是要加载的布局id，第二个参数是指给该布局的外部再嵌套一层父布局，如果不需要就直接传null。这样就成功成功创建了一个布局的实例，之后再将它添加到指定的位置就可以显示出来了。
 
-### 小例子
+## 小例子
 下面我们就通过一个非常简单的小例子，来更加直观地看一下LayoutInflater的用法。比如说当前有一个项目，其中MainActivity对应的布局文件叫做activity_main.xml，代码如下所示：
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -73,7 +73,7 @@ inflate()方法一般接收两个参数，第一个参数就是要加载的布�
 
 Button在界面上显示出来了！说明我们确实是借助LayoutInflater成功将button_layout这个布局添加到LinearLayout中了。LayoutInflater技术广泛应用于需要动态添加View的时候，比如在ScrollView和ListView中，经常都可以看到LayoutInflater的身影。
 
-### 深入了解LayoutInflater
+## 深入了解LayoutInflater
 
 从源码的角度上看一看LayoutInflater到底是如何工作的，结论：
 
@@ -84,6 +84,6 @@ Button在界面上显示出来了！说明我们确实是借助LayoutInflater成
 
 ![Mou icon](http://s1.5km.co/201410/2416/47808_z.png)
 
-### 参考
+## 参考
 
 * Android LayoutInflater原理分析，带你一步步深入了解View(一) - 郭霖的专栏 - 博客频道 - CSDN.NET : http://blog.csdn.net/guolin_blog/article/details/12921889
