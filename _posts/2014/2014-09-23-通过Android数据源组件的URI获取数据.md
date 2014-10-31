@@ -1,7 +1,6 @@
 ---
 layout: post
 category : program
-tagline: "Supporting tagline2"
 tags : Android
 
 ---
@@ -14,9 +13,7 @@ tags : Android
 
 * 数据库
 * 文件
-* 甚至其他数据源
-
-来获取。
+* 甚至其他数据源来获取。
 
 整个数据源组件的接口设计集合了REST标准和数据库设计的概念，通过URI进行定位，像数据库一样，通过SQL语句描述具体的操作。
 
@@ -61,4 +58,4 @@ tags : Android
 	}
 
 ## Demo
-- [读取通信录到列表的Demo](https://github.com/CocaMelon/Android_DEMO/tree/master/PRVD_Contacts)
+- [读取通信录到列表的Demo](https://github.com/neosdong/Android-Training/tree/master/PRVD_Contacts)

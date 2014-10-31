@@ -1,18 +1,20 @@
 ---
 layout: post
 category : program
-tags : [Android, 动作响应, 滑动]
+tags : Android, 动作响应, 滑动
 
 ---
 
 
 左右滑动动作是基于Fling动作（快速连续滑动，不区分方向）的。
 
-Fling动作是基于Touch动作的，所以首先触发响应函数onTouch，然后在onFling中使用GestureDetector.onTouchEvent(event ev)分析动作，判断是否要触发OnGestureListener的响应函数。
+Fling动作是基于Touch动作的，所以首先触发响应函数onTouch，然后在onTouch中使用GestureDetector.onTouchEvent(event ev)分析动作，判断是否要触发OnGestureListener的响应函数onFling。
 
-OnGestureListener的响应函数：
+onTouch使用GestureDetector.onTouchEvent(event ev)的返回值。如果符合Fling的标准，而返回`true`，事件不再进一步传递。否则，返回`false`
 
-* onFling：快速连续滑动，不区分方向。
+	OnGestureListener的响应函数：
+
+	* onFling：快速连续滑动，不区分方向。
 
 
 ## 左右滑动动作响应的实现
