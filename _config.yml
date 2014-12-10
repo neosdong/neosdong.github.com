@@ -1,6 +1,49 @@
-markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://neosdong.github.io 
-author: Leon
-pygments: true
-paginate: 24
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: neosdong 
+  email: neosdong@gmail.com
+  link: http://neosdong.github.io
+  weibo: http://weibo.com/neosdong
+  github: http://github.com/neosdong
+
+# 站点信息
+title: 冬眠觉晓 
+description: NEOSDONG's Blog
+url: http://neosdong.github.io
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: http://neosdong.github.com/gavatar.jpg
+favicon: http://neosdong.github.com/favicon.ico
+
+# google analytics 设置
+#ga:
+#  id: UA-54767140-1
+#  url: yansu.org
+
+# disqus 设置
+disqus:
+  shortname: neosdong
+
+# 主题设置，自动激活某个标签
+active: program
+
+# 首页除了最新文章外显示分类
+cates: 
+  - Python
+  - OpenStack
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
+  content: 目录
