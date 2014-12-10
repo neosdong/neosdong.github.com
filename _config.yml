@@ -38,6 +38,7 @@ active: program
 # 首页除了最新文章外显示分类
 cates: 
   - Android
+  - Life
 
 # 中文本地化
 locals:
