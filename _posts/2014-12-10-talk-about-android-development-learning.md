@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 说说Android开发的学习
-category: Android
+category: program
 tags: Android
 keywords: Android development learning 
 description: 
 ---
-![20141210-android-hacking](http://neosdong.github.io/img/20141210-android-hacking)
+![20141210-android-hacking](https://raw.githubusercontent.com/neosdong/neosdong.github.com/master/img/20141210-android-hacking.png)
 
 最近专注于学习Android开放，但是学习过程总是零零散散的。不能一下子总结出一套套的经验思路。但是，不写吧，就一段时间都不写了。所以还是坚持，每天一小步，几个月一大跨越吧。
 
@@ -23,7 +23,7 @@ description:
 3. 【模仿】常见的网上有源码的Android应用：
 	1. [新闻客户端](https://github.com/neosdong/DimensionNews)
 	2. IM：聊天机器人、仿微信界面等
-	3. 普通2D游戏（俄罗斯方块）
+	3. 普通2D游戏（俄罗斯方块、贪吃蛇）
 	4. 词典
 4. 【分析，造轮子】分析优秀应用的功能实现，并模仿实现。例如，[QQ5.0的菜单](https://github.com/neosdong/Android-Training/tree/master/UI_QQ50_SlidingMenu)
 5. 【设计自己的应用】
