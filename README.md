@@ -1,6 +1,6 @@
 ### 我的博客
 
-[neosdong.github.io](neosdong.github.io)
+[neosdong.github.io](http://neosdong.github.io)
 
 ### 安装说明
 
