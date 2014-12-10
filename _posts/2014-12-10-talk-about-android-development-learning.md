@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 说说Android开发的学习
-category: program
+category: Android
 tags: Android
-keywords: example
+keywords: Android development learning 
 description: 
 ---
 ![20141210-android-hacking](http://neosdong.github.io/img/20141210-android-hacking)
