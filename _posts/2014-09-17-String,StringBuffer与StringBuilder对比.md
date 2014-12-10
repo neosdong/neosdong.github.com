@@ -1,7 +1,7 @@
 ---
 layout: post
-category : program
-tags : [Android, Java]
+category : Program
+tags : Android Java
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 category : program
-tags : [Android, Android View]
+tags : Android Layout
 
 ---
 

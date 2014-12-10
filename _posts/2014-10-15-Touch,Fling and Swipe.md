@@ -1,7 +1,7 @@
 ---
 layout: post
 category : program
-tags : Android, 动作响应, 滑动
+tags : Android 动作响应 滑动
 
 ---
 

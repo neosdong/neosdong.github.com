@@ -1,7 +1,7 @@
 ---
 layout: post
 category : program
-tags : [Android, Android View, XML解析]
+tags : Android XML解析
 
 ---
 
