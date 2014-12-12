@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 说说Android开发的学习
-category: program
+category: Android
 tags: Android
 keywords: Android development learning 
 description: 
@@ -22,9 +22,10 @@ description:
 2. 【Android基础知识点】练习制作对应[DEMO](https://github.com/neosdong/Android-Training)
 3. 【模仿】常见的网上有源码的Android应用：
 	1. [新闻客户端](https://github.com/neosdong/DimensionNews)
-	2. IM：聊天机器人、仿微信界面等
-	3. 普通2D游戏（俄罗斯方块、贪吃蛇）
-	4. 词典
+	2. IM：[聊天机器人](https://github.com/neosdong/Android-Training/tree/master/HTTP_GET2)、仿微信界面等
+	3. 微博：[AisenWeiBo](https://github.com/neosdong/AisenWeiBo)
+	4. 普通2D游戏（俄罗斯方块、贪吃蛇）
+	5. 词典
 4. 【分析，造轮子】分析优秀应用的功能实现，并模仿实现。例如，[QQ5.0的菜单](https://github.com/neosdong/Android-Training/tree/master/UI_QQ50_SlidingMenu)
 5. 【设计自己的应用】
 
