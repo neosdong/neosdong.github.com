@@ -22,7 +22,7 @@ description:
 
 ### Andrid Studio with Gradle
 
-1、[史上最详细的Android Studio系列教程一--下载和安装](http://segmentfault.com/blog/stormzhang/1190000002401964)
+[史上最详细的Android Studio系列教程一--下载和安装](http://segmentfault.com/blog/stormzhang/1190000002401964)
 
 [Gradle Plugin User Guide](http://tools.android.com/tech-docs/new-build-system/user-guide) 来自Google的Gradle用户指南。
 
@@ -38,6 +38,24 @@ Android Studio Tips  [StudioDevTips@Mark_Hwang](http://www.weibo.com/p/10080860a
 * onCreate还没有显示给用户，那么那段黑屏可以确定就是onCreate的时间太长了。
 * onResume可以分担部分View的加载。记得加上做标识的Feild变量，避免每次进来都加载。
 * 代码框架：见原文。
+
+### 实战教程
+
+
+#### Android 项目开发实战:周边加油站
+* JSON数据解析
+* 百度地图SDK，定位、地图呈现、POI呈现、路线规划
+* Android Studio导入jar和so文件
+* 数据序列号：实现 Parcelable 接口，进行数据序列化，在Intent传递对象，对象数组。PS：Intent本身只能传递序列化数据。
+* ListView、GirdView的NoScroll子类实现。
+
+#### Android 项目开发实战:记事本
+
+* SQLite数据库的读写
+* 定义用Cursor参数的Adapter，传统用List
+* 添加图片
+* 添加视频，VideoView控件
+* 数据库版本升级，onUpdate
 
 ## 二、开源项目
 
