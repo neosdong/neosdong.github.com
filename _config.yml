@@ -25,8 +25,8 @@ favicon: http://neosdong.github.com/favicon.ico
 
 # google analytics 设置
 #ga:
-#  id: UA-57510076-1
-#  url: neosdong.github.io
+  id: UA-57510076-1
+  url: neosdong.github.io
 
 # disqus 设置
 disqus:
