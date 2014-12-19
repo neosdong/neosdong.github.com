@@ -24,7 +24,7 @@ gavatar: http://neosdong.github.com/gavatar.jpg
 favicon: http://neosdong.github.com/favicon.ico
 
 # google analytics 设置
-#ga:
+ga:
   id: UA-57510076-1
   url: neosdong.github.io
 
