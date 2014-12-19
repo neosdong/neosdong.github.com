@@ -9,7 +9,7 @@ description:
 ---
 
 
-## 一、教程
+## 一、教程与实践
 
 ### 精通Android触摸系统
 
@@ -31,15 +31,31 @@ Android Studio Tips  [StudioDevTips@Mark_Hwang](http://www.weibo.com/p/10080860a
 
 > 第一条 Android Studio 特性介绍：Studio 内置了 .9(点九)图编辑器，可以直接在Studio里面添加或修改.9图。1）如果图片是普通图片，将图片名称直接加“.9”后缀，比如ic_menu_save.9.png 后，导入Studio，双击打开，即可修改。2）如果本身就是.9图片，直接导入双击打开即可。
 
-### UI呈现的优化
+### UI的实现
 
-[加快activity显示速度，提高用户体验](http://www.imooc.com/wenda/detail/240437) 
+#### ActionBar的使用
+
+[搞定ActionBar（一）：学习Android Developers API GUIDE](/2014/12/12/ActionBar-is-boring.html)
+
+#### FlowLayout：类似网页的流式布局
+
+打造Android流式布局和热门标签 : [http://www.imooc.com/learn/237](http://www.imooc.com/learn/237)
+
+* onMeasure的重写：预算子类的位置，计算View的尺寸
+* onLayout的重写
+* 自定义属性
+
+My DEMO:[View_FlowLayout](https://github.com/neosdong/Android-Training/tree/master/View_FlowLayout)
+
+#### 加快activity显示速度，提高用户体验
+
+[http://www.imooc.com/wenda/detail/240437](http://www.imooc.com/wenda/detail/240437)
 
 * onCreate还没有显示给用户，那么那段黑屏可以确定就是onCreate的时间太长了。
 * onResume可以分担部分View的加载。记得加上做标识的Feild变量，避免每次进来都加载。
 * 代码框架：见原文。
 
-### 实战教程
+### 实战
 
 
 #### Android 项目开发实战:周边加油站
@@ -57,6 +73,7 @@ Android Studio Tips  [StudioDevTips@Mark_Hwang](http://www.weibo.com/p/10080860a
 * 添加视频，VideoView控件
 * 数据库版本升级，onUpdate
 
+
 ## 二、开源项目
 
 [litesuits/android-common](https://github.com/litesuits/android-common) 
@@ -68,6 +85,12 @@ Android Studio Tips  [StudioDevTips@Mark_Hwang](http://www.weibo.com/p/10080860a
 一个简单的 androd 资源注入工具，只有一个类，方便拷贝，用来在平时学习中简化一些操作，减少重复代码量，因此，只适合学习工程
 
 如果需要在工作中使用，可以参考更严谨的视图注入框架 butterknife
+
+[qii/weiciyuan](https://github.com/qii/weiciyuan)
+
+* 微博SDK使用
+* SlidingMenu主页框架
+* more...
 
 ## 三、资源
 
