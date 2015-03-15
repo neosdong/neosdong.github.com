@@ -43,7 +43,7 @@ links:[极客学院](http://www.jikexueyuan.com/course/131.html)
   * Automatically cancels operations when the calling Activity finishes 当Activity结束时，自动结束操作
   * Manages invocation back onto the UI thread 管理进入UI线程的回调
   * All operations return a Future and can be cancelled 所有操作返回一个Future对象，并且可以被取消。Future对象是多重继承于`Cancellable, java.util.concurrent.Future`的接口。用来定义回调对象。
-  * 【文档】[Future | Android Developers](http://developer.android.com/reference/java/util/concurrent/Future.html)
+  * 【文档】[Future - Android Developers](http://developer.android.com/reference/java/util/concurrent/Future.html)
   * 【了解接口多重继承】[JAVA 单继承 与 接口 多重继承 - - ITeye技术网站](http://talentluke.iteye.com/blog/1827258)
 * HTTP POST/PUT:
   * text/plain
