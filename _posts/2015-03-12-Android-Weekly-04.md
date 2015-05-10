@@ -14,6 +14,9 @@ description:
 
 links:[csdn](http://blog.csdn.net/le_go/article/details/36628161)
 
+1. RecyclerView封装了属于自己的RecyclerView.Adapter，里面只需要关注ViewHolder的创建与使用
+2. 相对ListView多了一个关注整体布局的RecyclerView.LayoutManager。例如，使用官方提供的LinearLayoutManager可以方便地将ListView变成横向的。
+
 ### 慕课网:Android图像处理
 
 Android图像处理-打造美图秀秀从它开始 : [http://www.imooc.com/view/302](http://www.imooc.com/view/302)
@@ -21,6 +24,8 @@ Android图像处理-打造美图秀秀从它开始 : [http://www.imooc.com/view/
 1. 图像处理的基本知识和概念
 2. Android中对图像的处理方法
 3. 实际演示如何对图像进行各种效果的处理
+
+
 
 ### Sublime text 3安装smali插件视频教程
 
@@ -154,3 +159,7 @@ links:[csdn](http://blog.csdn.net/column/details/androidhacks.html)
 ### 收集android上开源的酷炫的交互动画和视觉效果
 
 [Rano1/Interactive-animation](https://github.com/Rano1/Interactive-animation/blob/master/README.md)
+
+----
+
+* 20150315 补充RecyclerView特性

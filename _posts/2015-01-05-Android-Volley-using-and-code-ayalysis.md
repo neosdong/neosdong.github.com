@@ -10,9 +10,21 @@ description:
 
 ![](https://raw.githubusercontent.com/neosdong/neosdong.github.com/master/img/20150105-Volley-app.png)
 
-<!--
+
 
 ## Request衍生类的使用
+
+StringRequest和JsonRequest，ImageRequest都是继承自Request
+
+基本用法：
+
+1. 创建一个RequestQueue对象。
+2. 创建一个Request对象。
+3. 将Request对象添加到RequestQueue里面。
+
+因为RequestQueue就是设计用于多个Request对象的。
+RequestQueue全局一个就好，放在Application里最合适，这个确实是最佳实践。
+
 
 ## 自定义Request
 
@@ -24,9 +36,9 @@ description:
 
 ### ImageLoader
 
+
 ### NetworkImageView
 
--->
 
 ## Velly源码解析
 

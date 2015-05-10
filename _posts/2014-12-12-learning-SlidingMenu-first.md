@@ -12,6 +12,7 @@ description:
 ## UML of Sliding's Activity
 
 SlidingMenu的lib.app包定义了一些可被继承的Activity类：
+
 * SlidingActivity
 * SlidingListActivity
 * SlidingFragmentActivity
