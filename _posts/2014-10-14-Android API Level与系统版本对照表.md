@@ -31,3 +31,5 @@ API Level    | 系统版本 | 系统代号
 18 | Android 4.3 | Jelly Bean  糖豆
 19 | Android 4.4 | KitKat  奇巧巧克力棒
 20 | Android L | 
+
+Build.VERSION_CODES | Android Developers : http://developer.android.com/reference/android/os/Build.VERSION_CODES.html
