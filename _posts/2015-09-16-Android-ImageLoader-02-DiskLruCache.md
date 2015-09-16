@@ -314,6 +314,6 @@ Sample Code是在Activity直接实现的。缺少了必要的封装。但是，�
 
 ## 参考
 
-* [Java Thread wait, notify and notifyAll Example | JournalDev](http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example)
+* [Java Thread wait, notify and notifyAll Example - JournalDev](http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example)
 * [Android DiskLruCache完全解析，硬盘缓存的最佳方案 - 郭霖的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/guolin_blog/article/details/28863651)
-* [Caching Bitmaps | Android Developers](http://developer.android.com/training/displaying-bitmaps/cache-bitmap.html#disk-cache) 
+* [Caching Bitmaps - Android Developers](http://developer.android.com/training/displaying-bitmaps/cache-bitmap.html#disk-cache) 
